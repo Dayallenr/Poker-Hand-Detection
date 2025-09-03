@@ -23,11 +23,11 @@ I trained a YOLOv8 model on the Roboflow Playing Cards dataset to detect and cla
 📉 **Loss Curves**  
 Here are the loss curves for training:
 
-![Training Losses](images/results.png)
+![Training Losses](Images/results.png)
 
 📊 **Confusion Matrix**  
 Here is the confusion matrix:
 
-![Confusion matrix](images/confusion_matrix.png)
+![Confusion matrix](Images/confusion_matrix.png)
 ---
 
