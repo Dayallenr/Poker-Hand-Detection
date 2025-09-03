@@ -13,7 +13,8 @@ I trained a YOLOv8 model on the Roboflow Playing Cards dataset to detect and cla
 - Trained for 50 epochs on Google Colab (A100 GPU)  
 - Image size: 800x800  
 - Optimizer: Auto  
-- Batch size: 32  
+- Batch size: 32
+- 3.13 hours
 
 **Training Results**
 | Class | Images | Instances | Precision (P) | Recall (R) | mAP50 | mAP50-95 |
