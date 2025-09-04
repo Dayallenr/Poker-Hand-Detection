@@ -1,6 +1,7 @@
 # Poker Hand Detection using YOLOv8
 
-In this project, I used the [Roboflow Playing Cards Dataset]([https://universe.roboflow.com/](https://universe.roboflow.com/augmented-startups/playing-cards-ow27d/dataset/4) to train a YOLOv8 model that can detect poker cards. After detecting the cards on the table and in the player’s hand, the `PokerHandClassification.py` script is used to calculate the current poker hand.
+In this project, I used the [Roboflow Playing Cards Dataset](https://universe.roboflow.com/augmented-startups/playing-cards-ow27d/dataset/4) to train a YOLOv8 model that can detect poker cards. After detecting the cards on the table and in the player’s hand, the `PokerHandClassification.py` script is used to calculate the current poker hand.
+
 
 
 ## 1. Card Detection with YOLOv8
