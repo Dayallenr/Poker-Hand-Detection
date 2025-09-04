@@ -21,6 +21,10 @@ I trained a YOLOv8 model on the Roboflow Playing Cards dataset to detect and cla
 |-------|--------|-----------|---------------|------------|-------|----------|
 | all   | 2020   | 8080      | 1             | 1          | 0.995 | 0.97   |
 
+**Here is an example of the cards being detected and the current hand being shown**
+
+![Poker Hand](Images/PokerHand.png)
+
 📉 **Loss Curves**  
 Here are the loss curves for training:
 
@@ -31,4 +35,3 @@ Here is the confusion matrix:
 
 ![Confusion matrix](Images/confusion_matrix.png)
 ---
-
