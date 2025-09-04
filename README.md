@@ -6,20 +6,20 @@ In this project, I used the [Roboflow Playing Cards Dataset](https://universe.ro
 ## 1. Card Detection with YOLOv8
 
 I trained a YOLOv8 model on the Roboflow Playing Cards dataset to detect and classify cards.  
-- Fine-tuning & training code: `YoloDetectionModel.ipynb`  
+- Fine-tuning & training code: `YoloPokerDetectionModel.ipynb`  
 - Visualization: `PokerHandVisualization.ipynb`
 
 **Training Details**  
 - Trained for 50 epochs on Google Colab (A100 GPU)  
-- Image size: 800x800  
+- Image size: 640x640  
 - Optimizer: Auto  
-- Batch size: 32
-- 3.13 hours
+- Batch size: 16
+- 1.17 hours
 
 **Training Results**
 | Class | Images | Instances | Precision (P) | Recall (R) | mAP50 | mAP50-95 |
 |-------|--------|-----------|---------------|------------|-------|----------|
-| all   | 2020   | 8080      | 1             | 1          | 0.995 | 0.8157   |
+| all   | 2020   | 8080      | 1             | 1          | 0.995 | 0.97   |
 
 📉 **Loss Curves**  
 Here are the loss curves for training:
