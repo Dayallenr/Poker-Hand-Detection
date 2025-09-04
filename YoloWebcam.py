@@ -5,7 +5,7 @@ import PokerHandClassification
 
 webcam = cv.VideoCapture(0)
 
-model = YOLO("best.pt")
+model = YOLO("PokerDetectionBest.pt")
 
 while True:
 
